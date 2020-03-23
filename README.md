@@ -9,7 +9,7 @@
   - Django 3.0.2
 
 * Template :
-  - Frontend ![Bootstrap | themeineed.com](https://www.themeineed.com/)
+  - Frontend [Bootstrap | themeineed.com]
 
 * Services :
   - virtual env
@@ -39,13 +39,13 @@
 Login Page 
 -----------------
 
-![Result Code](https://github.com/theisandatu/progress-learn-django-models/blob/master/static/img/result.png)
+![Result Code](https://github.com/theisandatu/db-village-template/blob/master/static/images/result-DB-VIllage.png)
 
 
 Dashboard Page 
 -----------------
 
-![Result Code](https://github.com/theisandatu/progress-learn-django-models/blob/master/static/img/result.png)
+![Result Code](https://github.com/theisandatu/db-village-template/blob/master/static/images/dashBoard-DB-VIllage.png)
 
 
 
