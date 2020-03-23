@@ -1,0 +1,105 @@
+{% load static %}
+<!-- MAIN -->
+<div class="main">
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+        <div class="container-fluid">    
+            <!-- OVERVIEW -->
+            <div class="panel panel-headline">
+                <div class="panel-heading">
+                    <a href="/kepala_keluarga" class="btn btn-default"><i class="lnr lnr-arrow-left-circle"></i>&nbsp;&nbsp;&nbsp; Kembali</a>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <!-- BORDERED TABLE -->
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Ubah Kepala Keluarga</h3>
+                                </div>
+                                <div class="panel-body">
+                                    
+                                    <!--<form action="#" method="post">-->
+                                    <form action="/kepala_keluarga/mengubah_kepala_keluarga/">
+
+                                        <div class="form-group">
+                                            <label for="ndepan">Nama Depan</label>
+                                            <input type="text" id="ndepan" name="ndepan" class="form-control form-control-lg" value="Steve">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="nbelakang">Nama Belakang</label>
+                                            <input type="text" id="nbelakang" name="nbelakang" class="form-control form-control-lg" value="Jobs">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="ttl">Tempat, Tanggal Lahir</label>
+                                            <input type="date" id="ttl" name="ttl" class="form-control form-control-lg" value="24/02/1955">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pekerjaan">Pekerjaan</label>
+                                            <select id="pekerjaan" class="form-control form-control-lg" class="form-control" value="Wiraswasta">
+                                                <option></option>
+                                                <option>Tentara Nasional Indonesia (TNI)</option>
+                                                <option>Polisi Republik Indonesia (POLRI)</option>
+                                                <option>Pegawai Negeri Sipil (PNS)</option>
+                                                <option selected>Wiraswasta</option>
+                                                <option>Petani</option>
+                                                <option>Pelajar</option>
+                                              </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="pendidikan">Pendidikan</label>
+                                            <select id="pendidikan" class="form-control form-control-lg" class="form-control" value="SMK">
+                                                <option></option>
+                                                <option>TK</option>
+                                                <option>SD</option>
+                                                <option>SMP</option>
+                                                <option>SMA</option>
+                                                <option selected>SMK</option>
+                                                <option>S1</option>
+                                                <option>S2</option>
+                                                <option>S3</option>
+                                              </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="alamat">Alamat</label>
+                                            <textarea name="alamat" id="alamat" cols="30" rows="5" class="form-control" placeholder="Alamat">San Francisco, California, United States</textarea>
+                                        </div>
+                                        <div class="gorm-group">
+                                            <button class="btn btn-info btn-block btn-lg">Ubah</button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <!-- END BORDERED TABLE -->
+                        </div>
+                        <div class="col-md-4">
+                            <!-- BORDERED TABLE -->
+                            <div class="panel">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">Foto</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <!-- <div class="form-group">
+                                        <img class="img" width="100%" src="assets/img/kk_empty.png" alt="">
+                                    </div> -->
+                                    <div class="form-group">
+                                        <input type="image" src=" {% static 'images/steve-jobs.jpg' %} " name="foto" height="500">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="file" name="gambar" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END BORDERED TABLE -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END OVERVIEW -->
+            
+        </div>
+    </div>
+    <!-- END MAIN CONTENT -->
+</div>
+<!-- END MAIN -->

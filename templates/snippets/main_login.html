@@ -1,0 +1,38 @@
+{% load static %}
+<!-- WRAPPER -->
+<div id="wrapper">
+    <div class="vertical-align-wrap">
+        <div class="vertical-align-middle">
+            <div class="auth-box ">
+                <div class="left">
+                    <div class="content">
+                        <div class="header">
+                            <div class="logo text-center"><img src=" {% static 'assets/img/logo-dark.png' %} " alt="Klorofil Logo"></div>
+                            <p class="lead">Masuk dengan akun anda</p>
+                        </div>
+                        <form class="form-auth-small" action="/dashboard">
+                            <div class="form-group">
+                                <label for="nama_pengguna" class="control-label sr-only">Nama Pengguna</label>
+                                <input type="text" class="form-control" id="nama_pengguna" value="admin" placeholder="Nama Pengguna">
+                            </div>
+                            <div class="form-group">
+                                <label for="kata_sandi" class="control-label sr-only">Kata Sandi</label>
+                                <input type="password" class="form-control" id="kata_sandi" value="admin12345" placeholder="Kata Sandi">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block">MASUK</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="overlay"></div>
+                    <div class="content text">
+                        <h1 class="heading">Selamat Datang di Aplikasi DB-Village</h1>
+                        <p>by ICT SMK Negeri 1 Sentani Team</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END WRAPPER -->

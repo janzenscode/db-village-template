@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>DB-Village | {{title}}</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!-- VENDOR CSS -->
+	{% include 'kepala_keluarga/snippets/styles.html' %} <!-- STYLE CSS and IMAGE -->
+</head>
+
+<body>
+	<!-- WRAPPER -->
+	<div id="wrapper">
+		
+		{% include 'kepala_keluarga/snippets/navbar.html' %} <!-- NAVBAR -->
+		
+		{% include 'kepala_keluarga/snippets/sidebar.html' %} <!-- LEFT SIDEBAR -->
+		
+		{% include 'kepala_keluarga/snippets/main_edit_kepala_keluarga.html' %} <!-- Main Ubah Kepala Keluarga -->
+
+		<div class="clearfix"></div>
+		{% include 'kepala_keluarga/snippets/footer.html' %}  <!-- FOOTER -->
+	</div>
+	<!-- END WRAPPER -->
+	<!-- Javascript -->
+	{% include 'kepala_keluarga/snippets/scripts.html' %} <!-- SCRIPTS JS-->
+</body>
+
+</html>
