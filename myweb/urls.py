@@ -22,5 +22,8 @@ urlpatterns = [
     path('', views.login),
     path('dashboard/', views.index),
     path('pengguna/', include('pengguna.urls')),   
-    path('kepala_keluarga/', include('kepala_keluarga.urls')),  
+    path('kepala_keluarga/', include('kepala_keluarga.urls')),
+    path('pendidikan/', include('pendidikan.urls')),
+    path('pekerjaan/', include('pekerjaan.urls')),  
+  
 ]
