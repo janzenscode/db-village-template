@@ -1,5 +1,5 @@
 ## db-village-template
-*Jus an HTML and Boostrap Template
+- Jus an HTML and Boostrap Template
 
 ## System Requirements :
 * Bahasa Utama :
@@ -34,7 +34,7 @@
 
 ------------------------------------------------------------------------
 
-## Result Code
+# Result Code
 
 Login Page 
 -----------------
