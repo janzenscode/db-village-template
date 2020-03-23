@@ -19,7 +19,7 @@
 
 ## Caran Menjalankan Project :
 
-  * Clone Repositori ini (*git clone https://github.com/Ekhel/BLOG-BURKAS.git*)
+  * Clone Repositori ini (*git clone https://github.com/theisandatu/db-village-template.git*)
   * Pastikan Python Telah Terinstal, Saya Menggunakan Python 3
   * Create Env didalam Project yang telah di clone 
 
