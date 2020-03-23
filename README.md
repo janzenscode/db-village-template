@@ -25,7 +25,7 @@
 
     - Buka Command Promt (CMD) atau Terminal jika dilinux atau MAC OS
     - Buat virtual env ( *python -m venv dbvillage* )
-    - Activkan env dalam folder db-village-template ( *dbvillage\Scripts\activate* || *. /dbvillage/bin/activate* )
+    - Activkan env dalam folder db-village-template ( *dbvillage\Scripts\activate* atau *. /dbvillage/bin/activate* )
     
   * Upgrade pip ( *python -m pip install --upgrade pip* )
   * Install requirements.txt ( *pip install -r requirements.txt* )
