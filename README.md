@@ -36,14 +36,13 @@
 
 # Result Code
 
-Login Page 
------------------
+### Login Page 
+
 
 ![Result Code](https://github.com/theisandatu/db-village-template/blob/master/static/images/result-DB-VIllage.png)
 
 
-Dashboard Page 
------------------
+### Dashboard Page 
 
 ![Result Code](https://github.com/theisandatu/db-village-template/blob/master/static/images/dashBoard-DB-VIllage.png)
 
