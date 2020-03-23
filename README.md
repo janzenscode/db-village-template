@@ -17,7 +17,7 @@
 ------------------------------------------------------------------------
 
 
-## Caran Menjalankan Project :
+## Cara Menjalankan Project :
 
   * Clone Repositori ini (*git clone https://github.com/theisandatu/db-village-template.git*)
   * Pastikan Python Telah Terinstal, Saya Menggunakan Python 3

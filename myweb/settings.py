@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'kepala_keluarga',
     'pendidikan',
     'pekerjaan',
+    'pengaturan',
     
 ]
 
